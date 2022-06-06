@@ -1,0 +1,18 @@
+Instructions:
+
+In the models folder the 'FinalRobot' is our final model for the robot. To import into CoppeliaSim, open the desired map,
+then under File->Load Model... select FinalRobot.ttm from the Models folder.
+This is the robot that will be loaded into the test maps. 
+The robot should start at the proper coordinates but incase it does not, The coordinates are as follows:
+
+						X: 0
+						Y: -6.28
+						Z: 0.4
+
+We use Python API. In order to run this robot, you must have a python IDE installed. 
+In python you can open this project. Run the CoppeliaSim simulator then run the mainScript.py in the Main_Scripts folder using python. 
+In the terminal it will ask you to press enter then the simulation will begin, 
+this is so a timer can be started before the robot begins.
+
+Note: This robot will not handle higher simulation speeds properly due to API connection limitations.
+Please use default speed on real time!
